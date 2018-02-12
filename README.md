@@ -3,6 +3,10 @@
 the csv file should be in the same folder as the program 
 
 how to use it : 
+
+* add this line :  using france_cities.tools;
+
+
 * creat a citiesManager object : citiesManager CM = new citiesManager(file_location); 
 
 with the file directory as a parameter 
