@@ -1,0 +1,6 @@
+c:\users\islam\onedrive\documents\visual studio 2013\Projects\france_cities\france_cities\obj\Debug\france_cities.csprojResolveAssemblyReference.cache
+c:\users\islam\onedrive\documents\visual studio 2013\Projects\france_cities\france_cities\bin\Debug\france_cities.XML
+c:\users\islam\onedrive\documents\visual studio 2013\Projects\france_cities\france_cities\bin\Debug\france_cities.exe
+c:\users\islam\onedrive\documents\visual studio 2013\Projects\france_cities\france_cities\bin\Debug\france_cities.pdb
+c:\users\islam\onedrive\documents\visual studio 2013\Projects\france_cities\france_cities\obj\Debug\france_cities.exe
+c:\users\islam\onedrive\documents\visual studio 2013\Projects\france_cities\france_cities\obj\Debug\france_cities.pdb
