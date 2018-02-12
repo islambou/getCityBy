@@ -109,7 +109,7 @@ namespace france_cities.tools
         }      
         public String getCityByPostCode(String d)
         {
-            return getCities(d, 8);
+            return getCities(d, PostCodeColumn);
         }
      
 
