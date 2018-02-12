@@ -8,6 +8,7 @@ how to use it :
 with the file directory as a parameter 
   
  *  call the methode getCities(String value, int criteria) 
+ 
  value    : Used to set the value of our search query  (Ex : 75)
  criteria : Used to set the criteria of our search query  (Ex : 1 => "departement")
  
