@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
@@ -40,6 +40,9 @@ namespace france_cities.tools
 
         private Hashtable dataToHashtable(int column)
         {
+            // i usually use Dictionary instead if hashtable which both implement 
+            // the same interfaces in c# , but since you mentioned it 
+            // on our interview , i thought why not use it 
             /// <summary>dataToHashtable is simply a methode
             /// that gets data from the source (cvs) and turns it
             /// into a hashtable (key : depends on our query , value: city name)
@@ -48,15 +51,15 @@ namespace france_cities.tools
 
             Hashtable result = new Hashtable();
             try {
-                using (StreamReader reader = new StreamReader(DataSource))
-            {
-                
+                using (StreamReader reader = new StreamReader(DataSource))  {
+
+                 //the keyword "using"  releases the resource after finishing  (memory management)
                 while (!reader.EndOfStream)
                 {
                     String row = reader.ReadLine();
                     String[] values = row.Split(DataSeparator);
 
-                    //this line takes too much time but it is necessary 
+                    //this line takes too much time but it is necessary , it removes these (") 
                     values[column] = values[column].Replace("\"","");
 
 
